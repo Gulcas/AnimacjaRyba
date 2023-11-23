@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //  implementacja metod wykorzystujących animacje, wyzwalaczem jest atrybut onClick w przycisku
     public void obracaj(View v) {
         Animation a = AnimationUtils.loadAnimation(this, R.anim.obrot);
         ImageView iv = (ImageView) findViewById(R.id.imageView);
