@@ -24,6 +24,7 @@
 
             <Button
                 android:id="@+id/btnObrot"
+                android:onClick="obracaj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -31,6 +32,7 @@
 
             <Button
                 android:id="@+id/btnSkala"
+                android:onClick="skaluj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -38,6 +40,7 @@
 
             <Button
                 android:id="@+id/btnZanik"
+                android:onClick="zanikaj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -45,6 +48,7 @@
 
             <Button
                 android:id="@+id/btnPrzesuw"
+                android:onClick="przesuwaj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -53,6 +57,7 @@
 
         <Button
             android:id="@+id/btnWszystko"
+            android:onClick="stosuj_wszystko"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Wszystko" />
